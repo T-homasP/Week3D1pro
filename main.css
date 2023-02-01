@@ -48,13 +48,16 @@ a:hover{
     padding-left: 40px;
     
 }
-
+/* .content{
+    max-width: fit-content;
+} */
 
 .box{
     display: inline-block;
     border:rgb(250, 151, 21) solid 2px;
     border-radius: 5px;
     max-width: 300px;
+    margin: 30px 45px 30px 45px;
 }
 .box h2{
     font-weight:lighter;
@@ -65,4 +68,10 @@ a:hover{
 }
 .box p{
     padding: 20px 
+}
+.Dashboard{
+    margin-left:10%;
+}
+.Money{
+    margin-right: 10%;
 }
