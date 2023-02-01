@@ -8,6 +8,8 @@
 .header{
     background-color: rgb(250, 151, 21);
     height:60px;
+    display: flex;
+    justify-content: space-between;
 }
 .right li{
     display:inline;
@@ -29,16 +31,16 @@
     padding:3px
 }
 .right{
-    float:right;
-    height: inherit;
     
+    height: inherit;
+    align-self: flex-end;
     
 }
 
 .left{
-    float:left;
-    height:inherit;
 
+    height:inherit;
+    align-self: flex-start;
     
 }
 .left h3{
@@ -48,9 +50,10 @@
     padding-left: 40px;
     
 }
-/* .content{
-    max-width: fit-content;
-} */
+.content{
+    display: flex;
+    justify-content: space-around;
+}
 
 .box{
     display: inline-block;
